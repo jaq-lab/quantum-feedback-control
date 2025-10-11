@@ -1,0 +1,17 @@
+{
+    "information": {
+        "user_name": "Fabrizio Berritta",
+        "state_path": "C:\\Users\\MESO 1\\Documents\\GitHub\\experiment_2025_fb_pelagic_SQuIDLab\\fb_workspace\\state",
+        "user_ku_tag": "fwb251",
+        "device_name": "chalmers",
+        "chip_id": null,
+        "fridge_name": "meso",
+        "cluster_name": null,
+        "project_name": null,
+        "data_path": "C:\\Users\\MESO 1\\Documents\\database\\data_pelagic_fb",
+        "calibration_db_path": "#./parent_of_state_path",
+        "team": null,
+        "sync_to_qdrive": true,
+        "design_name": null
+    }
+}

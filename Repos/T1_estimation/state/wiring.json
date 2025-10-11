@@ -1,0 +1,80 @@
+{
+    "wiring": {
+        "drive_lines": {
+            "q1": {
+                "controller": "con1",
+                "port": 1,
+                "fem": 6,
+                "__class__": "opx_control.quam.components.wiring.MWFEMDriveWiring"
+            },
+            "q2": {
+                "controller": "con1",
+                "port": 1,
+                "fem": 5,
+                "__class__": "opx_control.quam.components.wiring.MWFEMDriveWiring"
+            },
+            "q3": {
+                "controller": "con1",
+                "port": 2,
+                "fem": 5,
+                "__class__": "opx_control.quam.components.wiring.MWFEMDriveWiring"
+            },
+            "q4": {
+                "controller": "con1",
+                "port": 3,
+                "fem": 5,
+                "__class__": "opx_control.quam.components.wiring.MWFEMDriveWiring"
+            },
+            "q5": {
+                "controller": "con1",
+                "port": 4,
+                "fem": 5,
+                "__class__": "opx_control.quam.components.wiring.MWFEMDriveWiring"
+            }
+        },
+        "readout_lines": {
+            "f1": {
+                "controller": "con1",
+                "fem": 5,
+                "port_in": 2,
+                "port_out": 8,
+                "__class__": "opx_control.quam.components.wiring.MWFEMReadoutWiring"
+            }
+        },
+        "flux_lines": {},
+        "couplings": {
+            "c15": {
+                "qubit_A": "q1",
+                "qubit_B": "q5",
+                "controller": "con1",
+                "port": 8,
+                "fem": 4,
+                "__class__": "opx_control.quam.components.wiring.LFFEMFluxCouplerWiring"
+            },
+            "c25": {
+                "qubit_A": "q2",
+                "qubit_B": "q5",
+                "controller": "con1",
+                "port": 7,
+                "fem": 4,
+                "__class__": "opx_control.quam.components.wiring.LFFEMFluxCouplerWiring"
+            },
+            "c35": {
+                "qubit_A": "q3",
+                "qubit_B": "q5",
+                "controller": "con1",
+                "port": 6,
+                "fem": 4,
+                "__class__": "opx_control.quam.components.wiring.LFFEMFluxCouplerWiring"
+            },
+            "c45": {
+                "qubit_A": "q4",
+                "qubit_B": "q5",
+                "controller": "con1",
+                "port": 5,
+                "fem": 4,
+                "__class__": "opx_control.quam.components.wiring.LFFEMFluxCouplerWiring"
+            }
+        }
+    }
+}

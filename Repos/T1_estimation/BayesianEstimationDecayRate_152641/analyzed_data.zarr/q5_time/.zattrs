@@ -1,0 +1,9 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "repetitions",
+        "shots"
+    ],
+    "coordinates": "q3_labtime q5_labtime",
+    "long_name": "Time",
+    "units": "clock_cycles"
+}

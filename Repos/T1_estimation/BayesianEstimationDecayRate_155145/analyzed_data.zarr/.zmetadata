@@ -1,0 +1,544 @@
+{
+    "metadata": {
+        ".zattrs": {
+            "job_id": "f4192dc5-cf32-4c59-80e8-c18f95609e75",
+            "job_status": "completed"
+        },
+        ".zgroup": {
+            "zarr_format": 2
+        },
+        "q3/.zarray": {
+            "chunks": [
+                6250,
+                13
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                50000,
+                50
+            ],
+            "zarr_format": 2
+        },
+        "q3/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "repetitions",
+                "shots"
+            ],
+            "coordinates": "q3_labtime q5_labtime",
+            "long_name": "Qubit RO (q3) I",
+            "units": "mV"
+        },
+        "q3__timestamp/.zarray": {
+            "chunks": [
+                6250,
+                13
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                50000,
+                50
+            ],
+            "zarr_format": 2
+        },
+        "q3__timestamp/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "repetitions",
+                "shots"
+            ],
+            "coordinates": "q3_labtime q5_labtime",
+            "long_name": "Qubit RO (q3) Timestamp",
+            "units": "s"
+        },
+        "q3_gamma/.zarray": {
+            "chunks": [
+                6250,
+                13
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                50000,
+                50
+            ],
+            "zarr_format": 2
+        },
+        "q3_gamma/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "repetitions",
+                "shots"
+            ],
+            "coordinates": "q3_labtime q5_labtime",
+            "long_name": "gamma (q3)"
+        },
+        "q3_k/.zarray": {
+            "chunks": [
+                6250,
+                13
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                50000,
+                50
+            ],
+            "zarr_format": 2
+        },
+        "q3_k/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "repetitions",
+                "shots"
+            ],
+            "coordinates": "q3_labtime q5_labtime",
+            "long_name": "k (q3)"
+        },
+        "q3_labtime/.zarray": {
+            "chunks": [
+                25000
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                50000
+            ],
+            "zarr_format": 2
+        },
+        "q3_labtime/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "repetitions"
+            ],
+            "long_name": "Qubit RO (q3) Timestamp",
+            "units": "s"
+        },
+        "q3_state/.zarray": {
+            "chunks": [
+                6250,
+                13
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                50000,
+                50
+            ],
+            "zarr_format": 2
+        },
+        "q3_state/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "repetitions",
+                "shots"
+            ],
+            "coordinates": "q3_labtime q5_labtime",
+            "long_name": "Qubit State (q3)"
+        },
+        "q3_theta/.zarray": {
+            "chunks": [
+                6250,
+                13
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                50000,
+                50
+            ],
+            "zarr_format": 2
+        },
+        "q3_theta/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "repetitions",
+                "shots"
+            ],
+            "coordinates": "q3_labtime q5_labtime",
+            "long_name": "theta (q3)",
+            "units": "s"
+        },
+        "q3_time/.zarray": {
+            "chunks": [
+                6250,
+                13
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                50000,
+                50
+            ],
+            "zarr_format": 2
+        },
+        "q3_time/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "repetitions",
+                "shots"
+            ],
+            "coordinates": "q3_labtime q5_labtime",
+            "long_name": "Time",
+            "units": "clock_cycles"
+        },
+        "q5/.zarray": {
+            "chunks": [
+                6250,
+                13
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                50000,
+                50
+            ],
+            "zarr_format": 2
+        },
+        "q5/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "repetitions",
+                "shots"
+            ],
+            "coordinates": "q3_labtime q5_labtime",
+            "long_name": "Qubit RO (q5) I",
+            "units": "mV"
+        },
+        "q5__timestamp/.zarray": {
+            "chunks": [
+                6250,
+                13
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                50000,
+                50
+            ],
+            "zarr_format": 2
+        },
+        "q5__timestamp/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "repetitions",
+                "shots"
+            ],
+            "coordinates": "q3_labtime q5_labtime",
+            "long_name": "Qubit RO (q5) Timestamp",
+            "units": "s"
+        },
+        "q5_gamma/.zarray": {
+            "chunks": [
+                6250,
+                13
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                50000,
+                50
+            ],
+            "zarr_format": 2
+        },
+        "q5_gamma/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "repetitions",
+                "shots"
+            ],
+            "coordinates": "q3_labtime q5_labtime",
+            "long_name": "gamma (q5)"
+        },
+        "q5_k/.zarray": {
+            "chunks": [
+                6250,
+                13
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                50000,
+                50
+            ],
+            "zarr_format": 2
+        },
+        "q5_k/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "repetitions",
+                "shots"
+            ],
+            "coordinates": "q3_labtime q5_labtime",
+            "long_name": "k (q5)"
+        },
+        "q5_labtime/.zarray": {
+            "chunks": [
+                25000
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                50000
+            ],
+            "zarr_format": 2
+        },
+        "q5_labtime/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "repetitions"
+            ],
+            "long_name": "Qubit RO (q5) Timestamp",
+            "units": "s"
+        },
+        "q5_state/.zarray": {
+            "chunks": [
+                6250,
+                13
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                50000,
+                50
+            ],
+            "zarr_format": 2
+        },
+        "q5_state/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "repetitions",
+                "shots"
+            ],
+            "coordinates": "q3_labtime q5_labtime",
+            "long_name": "Qubit State (q5)"
+        },
+        "q5_theta/.zarray": {
+            "chunks": [
+                6250,
+                13
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                50000,
+                50
+            ],
+            "zarr_format": 2
+        },
+        "q5_theta/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "repetitions",
+                "shots"
+            ],
+            "coordinates": "q3_labtime q5_labtime",
+            "long_name": "theta (q5)",
+            "units": "s"
+        },
+        "q5_time/.zarray": {
+            "chunks": [
+                6250,
+                13
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                50000,
+                50
+            ],
+            "zarr_format": 2
+        },
+        "q5_time/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "repetitions",
+                "shots"
+            ],
+            "coordinates": "q3_labtime q5_labtime",
+            "long_name": "Time",
+            "units": "clock_cycles"
+        },
+        "repetitions/.zarray": {
+            "chunks": [
+                50000
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<i4",
+            "fill_value": null,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                50000
+            ],
+            "zarr_format": 2
+        },
+        "repetitions/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "repetitions"
+            ]
+        },
+        "shots/.zarray": {
+            "chunks": [
+                50
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<i4",
+            "fill_value": null,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                50
+            ],
+            "zarr_format": 2
+        },
+        "shots/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "shots"
+            ]
+        }
+    },
+    "zarr_consolidated_format": 1
+}

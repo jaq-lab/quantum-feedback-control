@@ -1,0 +1,8 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "repetitions",
+        "shots"
+    ],
+    "long_name": "theta (q3)",
+    "units": "s"
+}

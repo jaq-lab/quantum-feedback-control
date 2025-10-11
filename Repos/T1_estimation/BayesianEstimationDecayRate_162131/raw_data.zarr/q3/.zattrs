@@ -1,0 +1,8 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "repetitions",
+        "shots"
+    ],
+    "long_name": "Qubit RO (q3) I",
+    "units": "mV"
+}
