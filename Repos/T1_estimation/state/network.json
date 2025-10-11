@@ -1,8 +1,0 @@
-{
-    "network": {
-        "host": "10.209.67.217",
-        "cluster_name": "Cluster_2",
-        "octave_networks": {},
-        "qm_router": true
-    }
-}

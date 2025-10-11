@@ -1,8 +1,0 @@
-{
-    "_ARRAY_DIMENSIONS": [
-        "repetitions",
-        "shots"
-    ],
-    "long_name": "Qubit RO (q5) Timestamp",
-    "units": "s"
-}
