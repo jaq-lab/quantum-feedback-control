@@ -4,10 +4,8 @@
 
 ## Projects
 
-### [T1_estimation](Repos/T1_estimation/)
+### [T1-estimation](https://github.com/JAK-lab/qfc-T1-estimation)
 Bayesian estimation of T1 decay rates in quantum systems for real-time feedback control.
-
-*Note: This repository contains large data files and is kept locally for now.*
 
 ## Publications
 
